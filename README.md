@@ -11,8 +11,8 @@
 * Landing to footer from navigation bar (post page).
 
 ## Blog Screenshots
-* ![Home Page](../screenshots/homepage.PNG)
-* ![Post Page](../screenshots/homepage.PNG)
+* ![Home Page](/screenshots/homepage.PNG)
+* ![Post Page](/screenshots/homepage.PNG)
 * ![Responsive Design](../screenshots/responsivedesign.PNG)
 
 ## Useful Links
