@@ -1,0 +1,167 @@
+
+  body {
+    text-align: center;
+    background-image: url(../pictures/jude-beck-c18_weJ6n-0-unsplash.jpg);
+  }
+
+
+  h1 {
+    color: #622e7e;
+    font-family: cursive;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+
+  h2 {
+    color: #622e7e;
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+
+  h3 {
+    color: #048a3c;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+
+  p {
+    font-size: 3rem;
+    color: black;
+    font-family: serif;
+    margin-left: 50px;
+    margin-right: 35px;
+  }
+    
+    
+  a {
+    color: #622e7e;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bold;
+
+  }
+
+
+  img {
+    padding: 5px;
+    width: 350px;
+  }
+
+
+  a.note:hover {
+    cursor: help;
+    position: relative
+  }
+
+
+  a.note span {
+    display: none
+  }
+
+
+  a.note:hover span {
+    display: inline;
+    left: 0px;
+    margin: 15px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    text-decoration: none;
+    color: #622e7e;
+  }
+
+
+  .grid {
+    color: #fff;
+    padding: 20px;
+  }
+
+
+  .header {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    color: #622e7e;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .header .nav ul {
+      display: flex;
+      list-style-type: none;
+      position: relative;
+      text-align: center;
+  }
+
+
+  .header .nav li {
+      margin-right: 15px;
+      padding: 10px;
+      text-align: center;
+  }
+
+
+  .header .nav li:hover{
+    color: #41c593;
+    background-color:#622e7e;
+  }
+
+
+  .header .nav li:hover a{
+    color: #41c593;
+    background-color:#622e7e;
+  }
+  
+
+  .btn {
+    display:inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #622e7e;
+    background-color: #41c593;
+    text-align: center;
+  }
+
+
+  .btn:hover {
+    color: #41c593;
+    background-color:#622e7e;
+  }
+
+
+  .figcaption {
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  
+  
+  #footer {
+    grid-column: 1 / 4;
+    grid-row: 6 / 8;
+    color: #fff;
+    text-align: center;
+  }  
+  
+
+  #footer img {
+      padding: 6px;
+      width: 70px;
+    }
+
+
+  #footer img:hover {
+      border: 1px solid #41c593;
+  }

@@ -1,0 +1,44 @@
+
+  .homepage-container {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+
+
+  .grid {
+    color: #fff;
+    padding: 25px;
+  }
+
+
+  .related-images {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+
+
+  .content {
+    display: flex;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+  }
+  
+
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .card p {
+    background: #f9f9f9;
+    border-left: 10px solid #844ba1;
+    quotes: "\201C""\201D";
+    font-size: 3rem;
+    color: #104f55;
+    padding: 20px
+  }
+
+  

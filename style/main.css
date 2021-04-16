@@ -1,0 +1,44 @@
+@import url(../style/homepage-style.css);
+@import url(../style/post-style.css);
+@import url(../style/style.css);
+
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+
+    .header {
+        display: grid;
+        grid-column: 1 / 1;
+        grid-row: 1 / 2;
+      }
+
+    .header .nav ul {
+        display: grid;
+        list-style-type: none;
+        position: relative;
+    }
+    .about-me {
+        display: grid;
+        grid-column: 1 / 1;
+        grid-row: 2 / 6;
+      }
+    .content {
+        display: grid;
+        grid-column: 1 / 1;
+        grid-row: 6 / 10;
+      }
+
+    .related-images {
+        display: grid;
+        grid-column: 1 / 1;
+        grid-row: 10 / 14;
+      }
+
+  
+    #footer {
+        grid-column: 1 / 1;
+        grid-row: 14 / 16;
+      }  
+
+      
+  }

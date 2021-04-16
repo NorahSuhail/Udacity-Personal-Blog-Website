@@ -1,0 +1,53 @@
+ 
+ .post-container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.5fr 0.2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+
+
+  .about-me {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    min-height: 500px;
+    object-fit: contain;
+  }
+
+
+  .content {
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    min-height: 500px;
+  }
+
+
+  .quote {
+    background: #f9f9f9;
+    border-left: 10px solid #844ba1;
+    quotes: "\201C""\201D";
+    font-size: 3rem;
+    color: #104f55;
+    padding: 20px;
+  }
+  
+
+  .blockquote:before {
+    color: #104f55;
+    content: open-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-top: 10px;
+    margin-right: 0.25px;
+    vertical-align: -0.4em;
+  }
+
+  
+  .span {
+    display: block;
+    color: #844ba1;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 40px;
+  }
