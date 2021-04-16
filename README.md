@@ -12,8 +12,8 @@
 
 ## Blog Screenshots
 * ![Home Page](/screenshots/homepage.PNG)
-* ![Post Page](/screenshots/homepage.PNG)
-* ![Responsive Design](../screenshots/responsivedesign.PNG)
+* ![Post Page](/screenshots/postpage.PNG)
+* ![Responsive Design](/screenshots/responsivedesign.PNG)
 
 ## Useful Links
 * [Background](https://unsplash.com/)
